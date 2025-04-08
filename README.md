@@ -1,109 +1,73 @@
-# Tomorrow - Client
+# 📅 Monday Clone — Task Management App
 
-This is the client-side application for **Tomorrow**, a project management tool designed to help teams organize and track their tasks efficiently. The app is built using React and Vite, providing a fast and modern development experience.
+Live Demo: [tomorrow-iiu4.onrender.com](https://tomorrow-iiu4.onrender.com)
 
-## Features
+A fullstack project inspired by **Monday.com** — designed to help teams manage tasks, workflows, and projects with ease. Built with a modern tech stack and responsive design.
+This project was made as a final project for Coding Academys fullstack course.
 
-- React-based frontend
-- Vite for fast builds and HMR (Hot Module Replacement)
-- ESLint for code linting
-- Supports both Babel and SWC for Fast Refresh
-- User authentication (Sign up and Log in)
-- Interactive task boards for project management
+---
 
-## Prerequisites
+## 🚀 Features
 
-Before setting up the project locally, ensure you have the following installed:
+- 🧩 Boards, Groups, and Tasks (like in Monday)
+- ✅ Drag-and-drop task management
+- 📋 Custom statuses, priorities, and labels
+- 📝 Real-time task editing
+- 🔍 Search and filter tasks
+- 🔐 User authentication and session management
+- 🌈 Responsive UI
 
-- [Node.js](https://nodejs.org/) (version 16 or higher recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-Follow these steps to set up the project locally:
+### Frontend
+- **React**
+- **Vite**
+- **Redux**
+- **TailwindCSS**
+- **Drag & Drop API**
 
-1. **Clone the Repository**  
-   Clone the project repository to your local machine:
+### Backend
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **RESTful API**
 
-   ```bash
-   git clone <repository-url>
-   cd monday-e2e/client
-   ```
+### Deployment
+- **Render** (Fullstack hosting)
+- **MongoDB Atlas** (Cloud database)
 
-2. **Install Dependencies**  
-   Install the required dependencies using npm or yarn:
+---
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+## 📷 Screenshots
 
-3. **Run the Development Server**  
-   Start the development server:
+### 🧩 All Boards View
+![Board View](https://i.imgur.com/DirajBF.png)
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+---
 
-   The application will be available at `http://localhost:5173` by default.
+### ✅ Specific board
+![Board](https://i.imgur.com/75OgShm.png)
 
-4. **Build for Production**  
-   To create a production build of the application:
+---
 
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
+### 📝 Activity log for board
+![Activity Log](https://i.imgur.com/ABX5ZBr.png)
 
-5. **Preview the Production Build**  
-   To preview the production build locally:
+---
 
-   ```bash
-   npm run preview
-   # or
-   yarn preview
-   ```
+### 🎨 Filter component, clean and responsive
+![Filter UI](https://i.imgur.com/FKtU1AQ.png)
 
-## Accessing the Board
+---
 
-To access the task board, you can either sign up for a new account or log in using the following guest credentials:
+## 👨‍💻 My Contributions
 
-- **Username:** guest
-- **Password:** guest
+This project was built as part of a team. My key contributions include:
+- Developing major UI components (board layout, side menu, activity log, home , landing page, etc.)
+- Implementing drag-and-drop functionality
+- Managing application state with Redux
+- Pixel perfecting monday.com style
+  And more
 
-## Project Structure
-
-```
-client/
-├── public/         # Static assets
-├── src/            # Source code
-│   ├── components/ # React components
-│   ├── pages/      # Application pages
-│   ├── styles/     # CSS/SCSS files
-│   └── main.jsx    # Application entry point
-├── package.json    # Project metadata and dependencies
-└── vite.config.js  # Vite configuration
-```
-
-## Contributing
-
-If you wish to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push the branch.
-4. Open a pull request.
-
-## Contributors
-
-This project was developed with contributions from:
-
-- **Ofir**
-- **Yuval**
-- **Gal**
-
-Feel free to contact any of us if you have any question about the project.
