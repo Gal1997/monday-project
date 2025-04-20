@@ -63,6 +63,10 @@ This project was made as a final project for Coding Academys fullstack course.
 
 ---
 
+### 📋 Drag & Drop
+![Drag & Drop](https://i.imgur.com/gGUoeeC.gif)
+---
+
 ## 👨‍💻 My Contributions
 
 This project was built as part of a team. My key contributions include:
